@@ -1,7 +1,7 @@
 <?php
 
 /* @var $url string */
-use neo\iframeviewer\IframeViewer;
+use neo\iframeviewer\IframeWidget;
 ?>
 <div class="preview_container">
     <div class="top_nav">
