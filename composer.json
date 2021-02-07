@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "neodev3/yii2-iframe-viewer": "*"
     },
     "autoload": {
         "psr-4": {

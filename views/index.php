@@ -1,6 +1,7 @@
 <?php
 
 /* @var $url string */
+use neo\iframeviewer\IframeViewer;
 ?>
 <div class="preview_container">
     <div class="top_nav">
@@ -15,10 +16,9 @@
     <div class="preview_container">
         <div class="preview_content">
             <div class="boxes my-auto desktop">
-                <?= \app\base\widgets\IframeWidget::widget([
+                <?= IframeWidget::widget([
                     'options' => [
-                        'src' => $url,
-                        'onload' => 'resizeIframe(this)'
+                        'src' => $url
                     ]
                 ]) ?>
             </div>

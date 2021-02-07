@@ -29,5 +29,13 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \neo\websiteviewer\WebsiteViewer::widget([
-            'url' => 'https://google.com'
+            'url' => 'https://yourWebsite.com'//Url::base(true)
 ]); ?>```
+
+Supported Layouts :
+
+1 desktop
+2 tablet
+3 tablet landscape
+4 mobile
+5 mobile landscape
