@@ -1,6 +1,6 @@
 <?php
 
-namespace \neo\websiteviewer;
+namespace neo\websiteviewer;
 
 /**
  * This is just an example.
