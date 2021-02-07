@@ -1,7 +1,6 @@
 <?php
 
-use yii\helpers\Url;
-
+/* @var $url string */
 ?>
 <div class="preview_container">
     <div class="top_nav">
@@ -16,12 +15,12 @@ use yii\helpers\Url;
     <div class="preview_container">
         <div class="preview_content">
             <div class="boxes my-auto desktop">
-                <?=\app\base\widgets\IframeWidget ::widget([
-                        'options' => [
-                                'src' => Url::base(true),
-                                'onload' => 'resizeIframe(this)'
-                        ]
-                ])?>
+                <?= \app\base\widgets\IframeWidget::widget([
+                    'options' => [
+                        'src' => $url,
+                        'onload' => 'resizeIframe(this)'
+                    ]
+                ]) ?>
             </div>
         </div>
     </div>
