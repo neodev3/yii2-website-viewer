@@ -1,6 +1,5 @@
 <?php
 namespace neo\websiteviewer;
-//namespace app\extensions\yii2WebsiteViewer;
 /**
  * This is just an example.
  */

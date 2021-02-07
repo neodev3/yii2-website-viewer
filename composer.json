@@ -1,5 +1,5 @@
 {
-    "name": "neodev3/yii2WebsiteViewer",
+    "name": "neodev3/yii2-website-viewer",
     "description": "This will allow you to check your website in different views.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","website-viewer","mobile view"," portrait view"," landscape view"],

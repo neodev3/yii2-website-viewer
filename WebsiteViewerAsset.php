@@ -1,7 +1,6 @@
 <?php
 
 namespace neo\websiteviewer;
-//namespace app\extensions\yii2WebsiteViewer;
 
 use yii\web\AssetBundle;
 
