@@ -28,4 +28,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \neo\websiteviewer\AutoloadExample::widget(); ?>```
+<?= \neo\websiteviewer\WebsiteViewer::widget([
+            'url' => 'https://google.com'
+]); ?>```
