@@ -30,10 +30,11 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?= \neo\websiteviewer\WebsiteViewer::widget([
             'url' => 'https://yourWebsite.com'//Url::base(true)
-]); ?>```
+]); ?>
+
+```
 
 ![alt text](https://github.com/neodev3/yii2-website-viewer/blob/master/assets/example.gif?raw=true)
-
 
 Supported Layouts :
 
