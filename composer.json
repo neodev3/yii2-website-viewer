@@ -1,0 +1,21 @@
+{
+    "name": "neodev3/yii2-website-viewer",
+    "description": "This will allow you to check your website in different views.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","website-viewer","mobile view"," portrait view"," landscape view"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Neo",
+            "email": "yii2backendwebdevelper@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\neo\\websiteviewer\\": ""
+        }
+    }
+}
